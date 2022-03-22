@@ -53,7 +53,9 @@ def get_winner(user_cards, computer_cards):
     elif got_blackjack(user_cards):
         print('You Win. You got a blackjack.')
     elif user_score > 21:
-        print('You Lose. You went over 21.')
+        print('You Lose. You went over.')
+    elif computer_score > 21:
+        print('You Win. Opponent went over.')
     elif user_score == computer_score:
         print('Draw')
     elif user_score > computer_score:
