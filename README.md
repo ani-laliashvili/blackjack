@@ -1,8 +1,8 @@
-# blackjack
+## blackjack
 
 This script allows user to play blackjack against computer.
 
-   Our Blackjack House Rules 
+   # Our Blackjack House Rules: 
  *  The deck is unlimited in size.
  *  There are no jokers.
  *  The Jack/Queen/King all count as 10.
