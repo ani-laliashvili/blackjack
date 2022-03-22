@@ -27,7 +27,7 @@ def got_blackjack(hand):
     """
     check if user or dealer have blackjack
     """
-    if sum(cards) == 21 and len(cards) == 2:
+    if sum(hand) == 21 and len(hand) == 2:
         return True
     else:
         return False
